@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Economy</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>🌍 About Green Economy</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="course.html">Course</a>
+      <a href="test.html">Test</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Empowering a Sustainable Future</h2>
+      <p>Learn about renewable energy, sustainability and climate action.</p>
+      <button onclick="window.location.href='course.html'">Start Learning</button>
+    </section>
+  </main>
+
+  <div id="chatbot">
+    <textarea id="userInput" placeholder="Ask about climate..."></textarea>
+    <button onclick="askQuestion()">Ask AI</button>
+    <div id="chatResponse"></div>
+  </div>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>
